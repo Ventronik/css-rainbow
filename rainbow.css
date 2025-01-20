@@ -1,6 +1,84 @@
+/* For rainbow 1 */
 .nested-div {
     max-width: 180px;
     padding: 10px 6px 0px 6px;
     margin: 5% 6% 0px 6%;
     border-radius: 90vw 90vw 0 0;
+}
+
+
+/* For rainbow 2 */
+.rainbow-wrapper {
+    position: relative;
+    width: 90vw;
+    height: 45vw;
+    overflow: hidden;
+    margin: auto;
+}
+
+.rainbow-wrapper>div {
+    border-radius: 90vw 90vw 0 0 ;
+}
+
+.red-band {
+    background-color: red;
+    width: 90vw;
+    height: 45vw;
+    position: absolute;
+}
+.orange-band {
+    background-color: orange;
+    width: 85vw;
+    height: 42.5vw;
+    position: absolute;
+    left: 2.5vw;
+    top: 2.5vw;
+}
+.yellow-band {
+    background-color: yellow;
+    width: 80vw;
+    height: 40vw;
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+}
+.green-band {
+    background-color: green;
+    width: 75vw;
+    height: 37.5vw;
+    position: absolute;
+    left: 7.5vw;
+    top: 7.5vw;
+}
+.blue-band {
+    background-color: blue;
+    width: 70vw;
+    height: 35vw;
+    position: absolute;
+    left: 10vw;
+    top: 10vw;
+}
+.indigo-band {
+    background-color: indigo;
+    width: 65vw;
+    height: 32.5vw;
+    position: absolute;
+    left: 12.5vw;
+    top: 12.5vw;
+}
+.violet-band {
+    background-color: violet;
+    width: 60vw;
+    height: 30vw;
+    position: absolute;
+    left: 15vw;
+    top: 15vw;
+}
+.white-band {
+    background-color: white;
+    width: 55vw;
+    height: 27.5vw;
+    position: absolute;
+    left: 17.5vw;
+    top: 17.5vw;
 }
